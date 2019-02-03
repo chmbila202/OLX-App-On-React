@@ -1,0 +1,64 @@
+#product-detail {
+    border: 1px solid gray;
+}
+
+#product {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#price-btn {
+    width: 240px;
+    height: 80px;
+    border: 1px solid rgb(147, 243, 184);
+    background: rgb(90, 199, 145);
+    color: #FFF;
+    border-radius: 50px/20px;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+}
+#price-btn:active {
+    background:rgb(5, 141, 100);
+}
+
+#seller {
+    margin-top: 10px;
+    background: lightblue;
+    padding: 10px;
+}
+
+#message {
+    margin-top: 10px;
+    
+    background: rgb(104, 156, 173);
+    padding: 10px;
+}
+
+#msg-btn {
+    width: 95%;
+    height: 50px;
+    background: rgb(40, 58, 87);
+    color: rgb(103, 117, 119);
+    border: 1px solid rgb(26, 28, 49);
+    font-weight: bold;
+}
+#msg-btn:active {
+    background: rgb(136, 136, 136);
+}
+
+#tips {
+    padding: 5px;
+    margin-top: 10px;
+    background: rgb(192, 239, 255);
+}
+
+#tips ol li {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 640px) {
+    img {
+        height: auto;
+    }
+}

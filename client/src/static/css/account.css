@@ -1,0 +1,110 @@
+#tabcard {
+    margin-bottom: 10px;
+}
+#bar {
+    background: rgb(120, 159, 218);
+    padding:5px;
+}
+#bar p {
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+#mylist {
+    height: 120px;
+    width: 80%;
+    position: relative;
+    margin: 20px auto;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 1px lightblue;
+}
+
+#myitem-img {
+    height: 120px;
+    overflow: hidden;
+    width: 150px;
+    float: left;
+    border-radius: 5px;
+}
+
+#myitem-img img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+#mylist:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}
+
+#mylist:hover {
+    box-shadow: 0px 0px 2px 2px rgb(87, 197, 240);
+}
+
+#myitem-detail {
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+#myproduct-name {
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+#myproduct-cate {
+    font-size: 12px;
+    color: rgb(32, 110, 161);
+    font-weight: bold;
+    line-height: 3px;
+}
+#myproduct-price {
+    font-size: 17px;
+    color: rgb(255, 214, 32);
+    line-height: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#mybtn {
+    position: absolute;
+    float: right;
+    z-index:10 ;
+    right: 20px;
+    margin-top: 30px;
+    
+}
+#mybtn button {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+    #myproduct-name {
+        width: auto;
+    }
+    #myproduct-name ,#myproduct-price {
+        font-size: 16px;
+    }
+    #myitem-img {
+        width: 100px;
+    }
+    #bar p {
+        font-weight: bold;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+     
+
+
+  
+}

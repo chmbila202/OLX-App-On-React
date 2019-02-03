@@ -1,0 +1,43 @@
+#subbox {
+    width: 100%;
+    border:1px solid gray;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#subbox  > p {
+    font-size: 21px;
+    color:rgb(47, 64, 78);
+    border-bottom:1px solid rgb(27, 35, 43);
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left:10px;
+}
+#submitform {
+    padding:50px;
+}
+
+
+#photos::-webkit-file-upload-button {
+    height: 100px;
+    width: 100px;
+    border:none;
+    outline:none;
+    color:transparent;
+    
+
+  
+}
+#agreement {
+    font-size: 11px;
+    color:rgb(80, 73, 73);
+    
+}
+
+@media only screen and (max-width: 610px) {
+    #submitform {
+        padding:5px;
+    }
+    #subbox  > p {
+        font-size: 16px;
+    }  
+}
