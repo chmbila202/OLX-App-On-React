@@ -4,7 +4,7 @@ Node (Express.js)
 MongoDB
 To get started with this app, follow the instructions below.
 
-git clone https://github.com/yousufshaikh/react-vend-app.git
+git clone https://github.com/chmbila202/OLX-App-On-React/tree/master
 open in Visual Studio Code
 npm start
 start MongoDB server by typing "mongod" on cmd
